@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <servlet>
+    <servlet-name>allen10</servlet-name>
+    <servlet-class>allen.chen.allen10</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>allen10</servlet-name>
+    <url-pattern>/allen10</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>allen11</servlet-name>
+    <servlet-class>allen.chen.allen11</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>allen11</servlet-name>
+    <url-pattern>/allen11</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>allen12</servlet-name>
+    <servlet-class>allen.chen.allen12</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>allen12</servlet-name>
+    <url-pattern>/allen12</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>allen13</servlet-name>
+    <servlet-class>allen.chen.allen13</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>allen13</servlet-name>
+    <url-pattern>/allen13</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <description>檔案上傳目錄</description>
+    <param-name>img-path</param-name>
+    <param-value>/Users/Allen/Documents/javaEE/workspace/Test2/WebContent/imgs</param-value>
+  </context-param>
+</web-app>
